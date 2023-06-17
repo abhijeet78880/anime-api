@@ -1,0 +1,37 @@
+img{
+    width: 200px;
+    display: inline;
+    margin: 10px;
+    aspect-ratio: 1/1;
+}
+
+.btn-holder{
+    text-align: center;
+}
+
+button{
+    all: unset;
+    padding: 10px 20px;
+    background-color: hotpink;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    scale: 1.05;
+}
+
+#output{
+    animation: load 1s linear alternate-reverse infinite;
+    min-height: 100vh;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+@keyframes load {
+    from{ background-color: #aaaa;}
+    to{ background-color: white;}
+}
