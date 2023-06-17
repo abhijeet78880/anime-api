@@ -5,19 +5,19 @@
 
 ---
 ## some of the git commands i learnred today:
-
+- to stage the changes that are made
 ```  
     git add 
 ```
-
+- to config the origin and upstream
 ```
     git remote add <origin/upstream>
 ```
-
+- to commit the changes made
 ```
     git commit -m "message"
 ```
-
+- to push the changes to the github
 ```
     git push -u origin <branch>
 ```
@@ -51,4 +51,7 @@
  ```
     rm -rf .git 
 ```
- 
+- squash pivk and rebse command (-i tag is for interactiv mode)
+```
+    git rebase -i <commit token id>
+```
