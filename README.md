@@ -1,7 +1,7 @@
+# 
 # anime-api
  
 - anime images api
-
 
 ---
 ## some of the git commands i learnred today:
